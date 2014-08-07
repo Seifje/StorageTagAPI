@@ -125,5 +125,5 @@ public interface QueryService {
     public List<ResourceDetailResponse> listResourceDetails(ListResourceDetailsCmd cmd);
 
     ListResponse<DomainRouterResponse> searchForInternalLbVms(ListInternalLBVMsCmd cmd);
-
+ public ListResponse<StorageTagResponse> searchForStorageTags(ListStorageTagsCmd cmd);
 }
